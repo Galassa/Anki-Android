@@ -19,9 +19,9 @@ jobs:
 
       # And finally run the release build
       - run:
-          name: Assemble release build
+          name: Assemble debug build
           command: |
-            ./gradlew assembleRelease    
+            ./gradlew assembleDebug    
 
 workflows:
   # Below is the definition of your workflow.
